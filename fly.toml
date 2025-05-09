@@ -1,0 +1,9 @@
+[[services]]
+  internal_port = 3000
+  protocol = "tcp"
+  ports = [{ port = 80 }, { port = 443 }]
+
+[[services]]
+  internal_port = 40000
+  protocol = "udp"
+  ports = [{ port = 40000 }]
